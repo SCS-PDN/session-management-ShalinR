@@ -23,7 +23,7 @@
                 <td>${course.id}</td>
                 <td>${course.name}</td>
                 <td>${course.instructor}</td>
-                <td><a href="EnrollServlet?courseId=${course.id}">Enroll</a></td>
+<td><a href="EnrollServlet?courseId=${course.courseId}">Enroll</a></td>
             </tr>
         </c:forEach>
     </table>
@@ -35,5 +35,7 @@
             <li>${course.name} (${course.id})</li>
         </c:forEach>
     </ul>
+    <a href="LogoutServlet">Logout</a>
+    
 </body>
 </html>
