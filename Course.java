@@ -13,4 +13,3 @@ public class Course {
     public String getCourseName() { return courseName; }
     public String getInstructor() { return instructor; }
 }
-
